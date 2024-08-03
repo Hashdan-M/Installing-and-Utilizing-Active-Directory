@@ -1,4 +1,4 @@
-<img src="https://janikvonrotz.ch/wp-content/uploads/2017/10/Active-Directory-Logo.jpg" width=40% height=40%>
+<img src="https://janikvonrotz.ch/wp-content/uploads/2017/10/Active-Directory-Logo.jpg" width=37.5% height=37.5%>
 
 <h1>Utilizing Active Directory</h1>
 

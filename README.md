@@ -197,7 +197,7 @@ This will open a similar window to the one that we saw before, but this time it 
 
 We are creating a group called ***Python Developers*** and that's the only data that is mandatory. You can also add additional information in the ***Description*** and ***Notes***, if you want. Once you are done, click ***OK*** to have the group created.
 
-Repeat the same process to create the ***Developers*** group
+Repeat the same process to create the ***Developers*** group.
 
 We have a ***Python Developers*** group, now we want to add it to the ***Developers*** group. We can do this by scrolling down to the new entry and then right clicking on the entry in the list and selecting the ***Add to another group*** entry.
 
@@ -221,3 +221,26 @@ You can scroll down until you find the ***Members*** section of this window, or 
 
 In this case, what we want to do is to add ***Alex*** to the group, so click the ***Add*** button, enter ***Alex*** in the text field and then ***OK*** for the addition and ***OK*** for saving the changes. We've successfully added a new member, ***Alex***, into the Group!
 
+<h2>Managing Group Policies</h2>
+
+To manage group policies, we need to use the ***Group Policy Management*** application. You can find it by typing group into the Windows start menu.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901085647/in/dateposted-public/" title="gpo"><img src="https://live.staticflickr.com/65535/53901085647_9c3e43dafe_o.jpg" width="392" height="681" alt="gpo"/></a>
+
+This application allows you to set policies that will manage the way machines in your domain behave. You can apply these policies to the whole domain or to separate ***Organizational Units*** (OUs).
+
+In our case, we want to add a new policy to the ***Developers*** OU that already exists in the domain. To do that, expand the tree until you reach the ***example.com*** domain tree and find the ***Developers*** OU inside it.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902348679/in/dateposted-public/" title="create gpo"><img src="https://live.staticflickr.com/65535/53902348679_7d6d669768_o.jpg" width="1076" height="528" alt="create gpo"/></a>
+
+To create a new policy, right click on the ***Developers*** option and select the first menu entry: ***Create a GPO in this domain and Link it here***.
+
+When you click this option, you will be prompted to set a name for the policy and once you do, the policy will get added to the OU.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902441080/in/dateposted-public/" title="new wallpaper"><img src="https://live.staticflickr.com/65535/53902441080_64b0468376_o.jpg" width="752" height="527" alt="new wallpaper"/></a>
+
+We want to set a default wallpaper for the machines in the Developers OU, so we will call our policy **"New Wallpaper"**
+
+Once created, we want to edit the policy, to do this, right-click on the entry and click on the first menu entry: ***Edit***.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902449480/in/dateposted-public/" title="editor"><img src="https://live.staticflickr.com/65535/53902449480_3d0c10bd16_b.jpg" width="1024" height="505" alt="editor"/></a>

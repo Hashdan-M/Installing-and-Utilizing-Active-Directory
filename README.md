@@ -142,9 +142,82 @@ To install Active Directory (AD) on a Windows Server, follow these steps. This g
 
 - The server will automatically reboot once the installation and configuration are complete.
 
-### Post-Installation
+<h2>Managing Users and Groups</h2>
+Once the above setup is done, you are now ready to experiment with Active Directory.
 
-1. **Verify Installation**: Log in with domain credentials and use tools like **Active Directory Users and Computers** or **Active Directory Administrative Center** to ensure AD DS is functioning correctly.
-2. **Additional Configuration**: Depending on your environment, you may need to configure Group Policy, set up additional domain controllers, or configure DNS settings.
+Open the ***Active Directory Administrative Center (ADAC)***. You can find it by typing "active" into the Windows start menu.
 
-Following these steps should set up Active Directory on your server. If you encounter issues or need more advanced configuration, Microsoft’s documentation or community forums can be helpful resources.
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902198449/in/dateposted-public/" title="adac"><img src="https://live.staticflickr.com/65535/53902198449_0b0175a73c_z.jpg" width="371" height="640" alt="adac"/></a>
+
+The ***Active Directory Administrative Center*** allows you to manage your Active Directory installation, by configuring users, groups, computers, and more.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902290830/in/dateposted-public/" title="adac1"><img src="https://live.staticflickr.com/65535/53902290830_91df6f28c6_b.jpg" width="1024" height="483" alt="adac1"/></a>
+
+For this lab, we want to create a new user called ***Alex***. To do that, first click on the ***example (local)*** entry. This is the entry for the domain that your account can manage.
+
+To create a ***new user***, take a look at the tasks list on the right. Under the ***Users*** section, there's a ***New*** menu entry, which opens a submenu to select what's the type of entity that you want to create. In this case, we want to create a new user, so click on the ***User*** option.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902120913/in/dateposted-public/" title="new user"><img src="https://live.staticflickr.com/65535/53902120913_04d959f109_w.jpg" width="365" height="319" alt="new user"/></a>
+
+This will open a new window that lets you fill in a number of fields related to the new user. There are a lot of fields available, but only a couple are mandatory (indicated with the red star). You can leave the rest empty. The user that we are creating is called ***Alex***, with their username being also ***alex***.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900974462/in/dateposted-public/" title="create user"><img src="https://live.staticflickr.com/65535/53900974462_f18f13c838_b.jpg" width="996" height="589" alt="create user"/></a>
+
+Once you've entered the necessary data, click the ***OK*** button to have the user created.
+
+If you click on the newly created account, you will see that where it displays the name of the user, the system says ***Alex (Disabled)***.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902237549/in/dateposted-public/" title="alex diabled"><img src="https://live.staticflickr.com/65535/53902237549_da9f692ff5_o.jpg" width="892" height="477" alt="alex diabled"/></a>
+
+What happens if you right click on the entry and try to ***Enable*** it?
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900994442/in/dateposted-public/" title="enable"><img src="https://live.staticflickr.com/65535/53900994442_be7aee1feb.jpg" width="473" height="159" alt="enable"/></a>
+
+The system will not enable an account that doesn't have a good password. In this case, the password is empty because we haven't set it. Obviously, an empty password is not a good password.
+
+You can set a password using the ***Reset password*** menu option.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901902316/in/dateposted-public/" title="reset password"><img src="https://live.staticflickr.com/65535/53901902316_a4b741eee1.jpg" width="277" height="500" alt="reset password"/></a>
+
+Enter the password and confirm password into the ***Reset Password*** window, and ***User must change password at next logon*** option is already checked, we ensure that the user will change their password when they log in. So now click on the ***OK*** button to set the password. The goal of this is that after they've logged in once, the system administrator will not know their new password.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901909301/in/dateposted-public/" title="user must change password"><img src="https://live.staticflickr.com/65535/53901909301_f83d1d3562_w.jpg" width="384" height="194" alt="user must change password"/></a>
+
+Once you've set a good password, you can retry enabling the account. This time it should work.
+
+Let's now add a new group. We now want to add 2 groups called ***Python Developers*** and ***Developers***, then add the account we just created for ***Alex*** to the ***Python Developers*** group.
+
+To create a new group, use the same menu that you used for creating a new user, but this time select the new ***Group*** option.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902277394/in/dateposted-public/" title="new group"><img src="https://live.staticflickr.com/65535/53902277394_c6b8c94c63_w.jpg" width="365" height="321" alt="new group"/></a>
+
+This will open a similar window to the one that we saw before, but this time it requires the data for the ***Group*** rather than the user.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902282954/in/dateposted-public/" title="python developers"><img src="https://live.staticflickr.com/65535/53902282954_285a121868_o.jpg" width="718" height="592" alt="python developers"/></a>
+
+We are creating a group called ***Python Developers*** and that's the only data that is mandatory. You can also add additional information in the ***Description*** and ***Notes***, if you want. Once you are done, click ***OK*** to have the group created.
+
+Repeat the same process to create the ***Developers*** group
+
+We have a ***Python Developers*** group, now we want to add it to the ***Developers*** group. We can do this by scrolling down to the new entry and then right clicking on the entry in the list and selecting the ***Add to another group*** entry.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902386470/in/dateposted-public/" title="add group"><img src="https://live.staticflickr.com/65535/53902386470_4f4db1926e_b.jpg" width="1024" height="430" alt="add group"/></a>
+
+This will open a small window where we need to enter the name of the group. In this case, the group is called ***Developers***.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902209638/in/dateposted-public/" title="developers"><img src="https://live.staticflickr.com/65535/53902209638_95196630fa.jpg" width="455" height="250" alt="developers"/></a>
+
+You can use the ***Check Names*** button to verify that you have entered the name correctly. If you have, it will underline the text. If the name is incorrect, it will show a window saying "Name Not Found."
+
+Clicking the ***OK*** button will add the ***Python Developers*** group to the ***Developers*** group. We now want to do the same for adding ***Alex*** to ***Python Developers***. But we'll follow a different path.
+
+In this case, we will double click the ***Python Developers*** entry in the list, which will open up an editing window for the group.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901059417/in/dateposted-public/" title="members"><img src="https://live.staticflickr.com/65535/53901059417_cd594f28e2.jpg" width="500" height="497" alt="members"/></a>
+
+You can scroll down until you find the ***Members*** section of this window, or you can click on the ***Members*** link on the left. This section allows us to manually add or remove members from the group.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901967476/in/dateposted-public/" title="add to group"><img src="https://live.staticflickr.com/65535/53901967476_ddd2561248.jpg" width="500" height="497" alt="add to group"/></a>
+
+In this case, what we want to do is to add ***Alex*** to the group, so click the ***Add*** button, enter ***Alex*** in the text field and then ***OK*** for the addition and ***OK*** for saving the changes. We've successfully added a new member, ***Alex***, into the Group!
+

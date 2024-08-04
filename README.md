@@ -1,6 +1,6 @@
 <img src="https://janikvonrotz.ch/wp-content/uploads/2017/10/Active-Directory-Logo.jpg" width=37.5% height=37.5%>
 
-<h1>Utilizing Active Directory</h1>
+<h1>Installing & Utilizing Active Directory</h1>
 
 <h2>Description</h2>
 Active Directory is a core tool for system administrators who need to manage Windows machines. Active Directory allows us to manage users, groups, machines, and the policies that apply to all of them in a centralized fashion.

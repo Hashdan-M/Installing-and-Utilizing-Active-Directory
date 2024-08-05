@@ -244,3 +244,25 @@ We want to set a default wallpaper for the machines in the Developers OU, so we 
 Once created, we want to edit the policy, to do this, right-click on the entry and click on the first menu entry: ***Edit***.
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902449480/in/dateposted-public/" title="editor"><img src="https://live.staticflickr.com/65535/53902449480_3d0c10bd16_b.jpg" width="1024" height="505" alt="editor"/></a>
+
+This will open a new application: the ***Group Policy Management Editor***. This application allows you to navigate and configure all settings that can be set in a group policy.
+
+As we want to set the wallpaper, we need to navigate to this setting by going to: ***User Configuration > Policies > Administrative Templates > Desktop > Desktop***
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53903629153/in/dateposted-public/" title="desktop wallpaper"><img src="https://live.staticflickr.com/65535/53903629153_ea6efe94a8_b.jpg" width="988" height="566" alt="desktop wallpaper"/></a>
+
+This opens a list of possible settings that we can configure, including the ***Desktop Wallpaper***. To set the wallpaper to a specific value, double-click on the ***Desktop Wallpaper*** entry.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902477237/in/dateposted-public/" title="wallpaper name"><img src="https://live.staticflickr.com/65535/53902477237_20ee80d659_z.jpg" width="640" height="594" alt="wallpaper name"/></a>
+
+The window that opens allows you to set the value of the wallpaper. To do that, first click on the ***Enabled*** button and then enter a path for the wallpaper. The path could be a local path in the machine or a network path on a server that shares files.
+
+ In the ***Wallpaper Name*** section, enter a path for the wallpaper. For this lab, our path is ****C:\qwiklabs\wallpaper.jpg****.
+
+Once you click ***OK***, the group policy is created and contains the values we want. To verify this, go back to the ***Group Policy Management*** application and click the ***Settings*** tab of the new policy.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53903642748/in/dateposted-public/" title="new wallpaper"><img src="https://live.staticflickr.com/65535/53903642748_f67efe8bfc_b.jpg" width="1024" height="428" alt="new wallpaper"/></a>
+
+<h2>Conclusion</h2>
+
+We've now seen how to install Active Directory and manage users, groups and group policies. There's a lot more to learn about AD, but these skills are the building blocks for administering a fleet of Windows computers.

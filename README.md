@@ -23,68 +23,68 @@ To install Active Directory (AD) on a Windows Server, follow these steps. This g
 - Click on the **Start** button and open **Server Manager**.
 - Alternatively, you can press `Windows + R`, type `servermanager`, and press Enter.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902137840/in/dateposted-public/" title="server manager"><img src="https://live.staticflickr.com/65535/53902137840_11850770fe_z.jpg" width="623" height="573" alt="server manager"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/server%20manager.jpg"/></a>
 
 #### 2. **Add Roles and Features**
 
 - In Server Manager, click on **Manage** in the top right corner and select **Add Roles and Features**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901960458/in/dateposted-public/" title="roles and features"><img src="https://live.staticflickr.com/65535/53901960458_0f3c7f288d_z.jpg" width="623" height="436" alt="roles and features"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/roles%20and%20features.jpg"/></a>
 
 - Click **Next** on the **Before You Begin** page.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901713366/in/dateposted-public/" title="before you begin"><img src="https://live.staticflickr.com/65535/53901713366_092b361536_z.jpg" width="623" height="382" alt="before you begin"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/before%20you%20begin.jpg"/></a>
 
 #### 3. **Select Installation Type**
 
 - Choose **Role-based or feature-based installation** and click **Next**.
 
- <a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900820477/in/dateposted-public/" title="installation type"><img src="https://live.staticflickr.com/65535/53900820477_cd011d70bc_z.jpg" width="624" height="388" alt="installation type"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/installation%20type.jpg"/></a>
 
 #### 4. **Select Destination Server**
 
 - Choose the server from the server pool where you want to install AD DS (Active Directory Domain Services) and click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901979798/in/dateposted-public/" title="server selection"><img src="https://live.staticflickr.com/65535/53901979798_247ea9e9bb_z.jpg" width="623" height="431" alt="server selection"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/server%20selection.jpg"/></a>
 
 #### 5. **Select Server Roles**
 
 - On the **Select server roles** page, check **Active Directory Domain Services**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901986518/in/dateposted-public/" title="select server roles"><img src="https://live.staticflickr.com/65535/53901986518_9fbe8edfc7_z.jpg" width="623" height="419" alt="select server roles"/>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/select%20server%20roles.jpg"/>
 
 - A dialog box will appear prompting you to add features required for AD DS. Click **Add Features**.
 - Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902096679/in/dateposted-public/" title="add features"><img src="https://live.staticflickr.com/65535/53902096679_35d08835d5_z.jpg" width="624" height="380" alt="add features"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/add%20features.jpg"/></a>
 
 #### 6. **Select Features**
 
 - You can generally leave the default features selected. Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900866227/in/dateposted-public/" title="next"><img src="https://live.staticflickr.com/65535/53900866227_87a0338087_z.jpg" width="623" height="368" alt="next"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/next.jpg"/></a>
 
 #### 7. **AD DS Information**
 
 - Review the information about AD DS. Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902027958/in/dateposted-public/" title="domain services"><img src="https://live.staticflickr.com/65535/53902027958_ed52d47662_z.jpg" width="623" height="424" alt="domain services"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/domain%20services.jpg"/></a>
 
 #### 8. **Confirmation**
 
 - Review your selections. Click **Install** to begin the installation.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902217845/in/dateposted-public/" title="confirm"><img src="https://live.staticflickr.com/65535/53902217845_797af1d380_z.jpg" width="624" height="420" alt="confirm"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/confirm.jpg"/></a>
 
 - The installation will proceed, and once it's completed, you’ll see a notification indicating that the installation was successful.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902043633/in/dateposted-public/" title="installation progress"><img src="https://live.staticflickr.com/65535/53902043633_61fee6dd4a_z.jpg" width="624" height="378" alt="installation progress"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/installation%20progress.jpg"/></a>
 
 #### 9. **Promote the Server to a Domain Controller**
 
 - After the installation, a notification will appear in Server Manager indicating that **Post-installation tasks** are needed. Click on **Promote this server to a domain controller**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900893267/in/dateposted-public/" title="promote to dc"><img src="https://live.staticflickr.com/65535/53900893267_9dbf2ed09a_z.jpg" width="640" height="352" alt="promote to dc"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/promote%20to%20dc.png"/></a>
 
 #### 10. **Configure AD DS**
 
@@ -94,7 +94,7 @@ To install Active Directory (AD) on a Windows Server, follow these steps. This g
 
 - Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902152649/in/dateposted-public/" title="deployment configuration"><img src="https://live.staticflickr.com/65535/53902152649_eb64614e81_z.jpg" width="640" height="468" alt="deployment configuration"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/deployment%20configuration.png"/></a>
 
 #### 11. **Domain Controller Options**
 
@@ -106,37 +106,37 @@ To install Active Directory (AD) on a Windows Server, follow these steps. This g
 
 - Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901805046/in/dateposted-public/" title="domain configuration options"><img src="https://live.staticflickr.com/65535/53901805046_398d915177_z.jpg" width="640" height="472" alt="domain configuration options"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/domain%20configuration%20options.png"/></a>
 
 #### 12. **DNS Options**
 
 - Review the DNS options and click **Next**. If you encounter warnings about DNS delegation, you can usually proceed by addressing these later.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902246035/in/dateposted-public/" title="dns options"><img src="https://live.staticflickr.com/65535/53902246035_88dd78db40_z.jpg" width="640" height="468" alt="dns options"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/dns%20options.png"/></a>
 
 #### 13. **Additional Options**
 
 - Review additional options, such as the NetBIOS domain name. Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902249900/in/dateposted-public/" title="additional options"><img src="https://live.staticflickr.com/65535/53902249900_298ef18956_z.jpg" width="640" height="473" alt="additional options"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/additional%20options.png"/></a>
 
 #### 14. **Paths**
 
 - Choose the paths for the AD database, log files, and SYSVOL folder. The default paths are generally fine. Click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900913197/in/dateposted-public/" title="database path"><img src="https://live.staticflickr.com/65535/53900913197_e717c5c71b_z.jpg" width="640" height="470" alt="database path"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/database%20path.png"/></a>
 
 #### 15. **Review Options**
 
 - Review your selections and click **Next**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902170474/in/dateposted-public/" title="review options"><img src="https://live.staticflickr.com/65535/53902170474_c6515770ca_z.jpg" width="640" height="472" alt="review options"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/review%20options.png"/></a>
 
 #### 16. **Prerequisites Check**
 
 - The installer will perform a prerequisites check. Ensure all checks pass. Click **Install**.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902259780/in/dateposted-public/" title="prerequisites check"><img src="https://live.staticflickr.com/65535/53902259780_e1b0c60051_z.jpg" width="640" height="472" alt="prerequisites check"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/prerequisites%20check.png"/></a>
 
 #### 17. **Reboot**
 
@@ -147,7 +147,7 @@ Once the above setup is done, you are now ready to experiment with Active Direct
 
 Open the ***Active Directory Administrative Center (ADAC)***. You can find it by typing "active" into the Windows start menu.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902198449/in/dateposted-public/" title="adac"><img src="https://live.staticflickr.com/65535/53902198449_0b0175a73c_z.jpg" width="371" height="640" alt="adac"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/a79e2327bb9356dc120dcca6adc375695e27f8a9/Active%20Directory/adac.jfif"/></a>
 
 The ***Active Directory Administrative Center*** allows you to manage your Active Directory installation, by configuring users, groups, computers, and more.
 

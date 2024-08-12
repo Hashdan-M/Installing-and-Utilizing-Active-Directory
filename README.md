@@ -151,37 +151,37 @@ Open the ***Active Directory Administrative Center (ADAC)***. You can find it by
 
 The ***Active Directory Administrative Center*** allows you to manage your Active Directory installation, by configuring users, groups, computers, and more.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902290830/in/dateposted-public/" title="adac1"><img src="https://live.staticflickr.com/65535/53902290830_91df6f28c6_b.jpg" width="1024" height="483" alt="adac1"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/adac1.jfif"/></a>
 
 For this lab, we want to create a new user called ***Alex***. To do that, first click on the ***example (local)*** entry. This is the entry for the domain that your account can manage.
 
 To create a ***new user***, take a look at the tasks list on the right. Under the ***Users*** section, there's a ***New*** menu entry, which opens a submenu to select what's the type of entity that you want to create. In this case, we want to create a new user, so click on the ***User*** option.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902120913/in/dateposted-public/" title="new user"><img src="https://live.staticflickr.com/65535/53902120913_04d959f109_w.jpg" width="365" height="319" alt="new user"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/new%20user.jfif"/></a>
 
 This will open a new window that lets you fill in a number of fields related to the new user. There are a lot of fields available, but only a couple are mandatory (indicated with the red star). You can leave the rest empty. The user that we are creating is called ***Alex***, with their username being also ***alex***.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900974462/in/dateposted-public/" title="create user"><img src="https://live.staticflickr.com/65535/53900974462_f18f13c838_b.jpg" width="996" height="589" alt="create user"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/create%20user.jfif"/></a>
 
 Once you've entered the necessary data, click the ***OK*** button to have the user created.
 
 If you click on the newly created account, you will see that where it displays the name of the user, the system says ***Alex (Disabled)***.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902237549/in/dateposted-public/" title="alex diabled"><img src="https://live.staticflickr.com/65535/53902237549_da9f692ff5_o.jpg" width="892" height="477" alt="alex diabled"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/alex%20diabled.jfif"/></a>
 
 What happens if you right click on the entry and try to ***Enable*** it?
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53900994442/in/dateposted-public/" title="enable"><img src="https://live.staticflickr.com/65535/53900994442_be7aee1feb.jpg" width="473" height="159" alt="enable"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/enable.jfif"/></a>
 
 The system will not enable an account that doesn't have a good password. In this case, the password is empty because we haven't set it. Obviously, an empty password is not a good password.
 
 You can set a password using the ***Reset password*** menu option.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901902316/in/dateposted-public/" title="reset password"><img src="https://live.staticflickr.com/65535/53901902316_a4b741eee1.jpg" width="277" height="500" alt="reset password"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/reset%20password.png"/></a>
 
 Enter the password and confirm password into the ***Reset Password*** window, and ***User must change password at next logon*** option is already checked, we ensure that the user will change their password when they log in. So now click on the ***OK*** button to set the password. The goal of this is that after they've logged in once, the system administrator will not know their new password.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901909301/in/dateposted-public/" title="user must change password"><img src="https://live.staticflickr.com/65535/53901909301_f83d1d3562_w.jpg" width="384" height="194" alt="user must change password"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/user%20must%20change%20password.jfif"/></a>
 
 Once you've set a good password, you can retry enabling the account. This time it should work.
 
@@ -189,11 +189,11 @@ Let's now add a new group. We now want to add 2 groups called ***Python Develope
 
 To create a new group, use the same menu that you used for creating a new user, but this time select the new ***Group*** option.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902277394/in/dateposted-public/" title="new group"><img src="https://live.staticflickr.com/65535/53902277394_c6b8c94c63_w.jpg" width="365" height="321" alt="new group"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/new%20group.jfif"/></a>
 
 This will open a similar window to the one that we saw before, but this time it requires the data for the ***Group*** rather than the user.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902282954/in/dateposted-public/" title="python developers"><img src="https://live.staticflickr.com/65535/53902282954_285a121868_o.jpg" width="718" height="592" alt="python developers"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/python%20developers.jfif"/></a>
 
 We are creating a group called ***Python Developers*** and that's the only data that is mandatory. You can also add additional information in the ***Description*** and ***Notes***, if you want. Once you are done, click ***OK*** to have the group created.
 
@@ -201,11 +201,11 @@ Repeat the same process to create the ***Developers*** group.
 
 We have a ***Python Developers*** group, now we want to add it to the ***Developers*** group. We can do this by scrolling down to the new entry and then right clicking on the entry in the list and selecting the ***Add to another group*** entry.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902386470/in/dateposted-public/" title="add group"><img src="https://live.staticflickr.com/65535/53902386470_4f4db1926e_b.jpg" width="1024" height="430" alt="add group"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/add%20group.jfif"/></a>
 
 This will open a small window where we need to enter the name of the group. In this case, the group is called ***Developers***.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902209638/in/dateposted-public/" title="developers"><img src="https://live.staticflickr.com/65535/53902209638_95196630fa.jpg" width="455" height="250" alt="developers"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/developers.jfif"/></a>
 
 You can use the ***Check Names*** button to verify that you have entered the name correctly. If you have, it will underline the text. If the name is incorrect, it will show a window saying "Name Not Found."
 
@@ -213,11 +213,11 @@ Clicking the ***OK*** button will add the ***Python Developers*** group to the *
 
 In this case, we will double click the ***Python Developers*** entry in the list, which will open up an editing window for the group.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901059417/in/dateposted-public/" title="members"><img src="https://live.staticflickr.com/65535/53901059417_cd594f28e2.jpg" width="500" height="497" alt="members"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/members.jfif"/></a>
 
 You can scroll down until you find the ***Members*** section of this window, or you can click on the ***Members*** link on the left. This section allows us to manually add or remove members from the group.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901967476/in/dateposted-public/" title="add to group"><img src="https://live.staticflickr.com/65535/53901967476_ddd2561248.jpg" width="500" height="497" alt="add to group"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/add%20to%20group.jfif"/></a>
 
 In this case, what we want to do is to add ***Alex*** to the group, so click the ***Add*** button, enter ***Alex*** in the text field and then ***OK*** for the addition and ***OK*** for saving the changes. We've successfully added a new member, ***Alex***, into the Group!
 
@@ -225,35 +225,35 @@ In this case, what we want to do is to add ***Alex*** to the group, so click the
 
 To manage group policies, we need to use the ***Group Policy Management*** application. You can find it by typing group into the Windows start menu.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53901085647/in/dateposted-public/" title="gpo"><img src="https://live.staticflickr.com/65535/53901085647_9c3e43dafe_o.jpg" width="392" height="681" alt="gpo"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/gpo.jfif"/></a>
 
 This application allows you to set policies that will manage the way machines in your domain behave. You can apply these policies to the whole domain or to separate ***Organizational Units*** (OUs).
 
 In our case, we want to add a new policy to the ***Developers*** OU that already exists in the domain. To do that, expand the tree until you reach the ***example.com*** domain tree and find the ***Developers*** OU inside it.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902348679/in/dateposted-public/" title="create gpo"><img src="https://live.staticflickr.com/65535/53902348679_7d6d669768_o.jpg" width="1076" height="528" alt="create gpo"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/create%20gpo.jfif"/></a>
 
 To create a new policy, right click on the ***Developers*** option and select the first menu entry: ***Create a GPO in this domain and Link it here***.
 
 When you click this option, you will be prompted to set a name for the policy and once you do, the policy will get added to the OU.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902441080/in/dateposted-public/" title="new wallpaper"><img src="https://live.staticflickr.com/65535/53902441080_64b0468376_o.jpg" width="752" height="527" alt="new wallpaper"/></a>
+<img src="(https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/new%20wallpaper.jfif)"/></a>
 
 We want to set a default wallpaper for the machines in the Developers OU, so we will call our policy **"New Wallpaper"**
 
 Once created, we want to edit the policy, to do this, right-click on the entry and click on the first menu entry: ***Edit***.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902449480/in/dateposted-public/" title="editor"><img src="https://live.staticflickr.com/65535/53902449480_3d0c10bd16_b.jpg" width="1024" height="505" alt="editor"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/editor.jfif"/></a>
 
 This will open a new application: the ***Group Policy Management Editor***. This application allows you to navigate and configure all settings that can be set in a group policy.
 
 As we want to set the wallpaper, we need to navigate to this setting by going to: ***User Configuration > Policies > Administrative Templates > Desktop > Desktop***
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53903629153/in/dateposted-public/" title="desktop wallpaper"><img src="https://live.staticflickr.com/65535/53903629153_ea6efe94a8_b.jpg" width="988" height="566" alt="desktop wallpaper"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/desktop%20wallpaper.jfif"/></a>
 
 This opens a list of possible settings that we can configure, including the ***Desktop Wallpaper***. To set the wallpaper to a specific value, double-click on the ***Desktop Wallpaper*** entry.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53902477237/in/dateposted-public/" title="wallpaper name"><img src="https://live.staticflickr.com/65535/53902477237_20ee80d659_z.jpg" width="640" height="594" alt="wallpaper name"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/wallpaper%20name.jfif"/></a>
 
 The window that opens allows you to set the value of the wallpaper. To do that, first click on the ***Enabled*** button and then enter a path for the wallpaper. The path could be a local path in the machine or a network path on a server that shares files.
 
@@ -261,7 +261,7 @@ The window that opens allows you to set the value of the wallpaper. To do that, 
 
 Once you click ***OK***, the group policy is created and contains the values we want. To verify this, go back to the ***Group Policy Management*** application and click the ***Settings*** tab of the new policy.
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/201152865@N02/53903642748/in/dateposted-public/" title="new wallpaper"><img src="https://live.staticflickr.com/65535/53903642748_f67efe8bfc_b.jpg" width="1024" height="428" alt="new wallpaper"/></a>
+<img src="https://github.com/Hashdan-M/Installing-and-Utilizing-Active-Directory/blob/e41fa922649a506b4eebcb24e71e0d04c0837625/Active%20Directory/new%20wallpaper1.jfif"/></a>
 
 <h2>Conclusion</h2>
 
